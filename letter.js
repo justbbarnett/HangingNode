@@ -1,15 +1,16 @@
 class Letter {
 
-    constructor (letter) {
+    constructor (character) {
         
-        this.letter = letter;
+        this.character = character;
         //the letter
         this.guessedIt = false;
         //this letter has not been guessed
+        this.display = "__ "
     }
 
     letterCheckedOut (guess) {
-        if ( this.letter === guess){
+        if ( this.character === guess){
             this.guessedIt = true;
             return true;
         }
@@ -21,11 +22,11 @@ class Letter {
     letterOrSymbol (){
         if (this.letterCheckedOut) {
             //if the letter checked out it will be true
-            return this.letter;
+            return this.display = this.letter;
             //guessed letter will be returned
         }
         else {
-            return "__ "
+            return this.display = "__ ";
             //you get an underscore if you haven't guessed it.
         }
     }
@@ -33,9 +34,9 @@ class Letter {
 }
 
 
-let b = new Letter("b");
-console.log(b.letterCheckedOut("b"));
-console.log(b.letterOrSymbol());
+// let b = new Letter("b");
+// console.log(b.letterCheckedOut("b"));
+// console.log(b.letterOrSymbol());
 
 
 
