@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/justbbarnett/HangingNode#readme",
   "dependencies": {
+    "colors": "^1.2.1",
+    "fs-extra": "^5.0.0",
     "inquire": "^0.4.8",
     "inquirer": "^5.2.0",
+    "npm": "^5.8.0",
     "promise": "^8.0.1",
     "require": "^2.4.20"
   }
