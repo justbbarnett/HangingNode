@@ -1,0 +1,25 @@
+{
+  "name": "hangingnode",
+  "version": "1.0.0",
+  "description": "Hangman in Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justbbarnett/HangingNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justbbarnett/HangingNode/issues"
+  },
+  "homepage": "https://github.com/justbbarnett/HangingNode#readme",
+  "dependencies": {
+    "inquire": "^0.4.8",
+    "inquirer": "^5.2.0",
+    "promise": "^8.0.1",
+    "require": "^2.4.20"
+  }
+}
