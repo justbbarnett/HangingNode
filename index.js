@@ -1,2 +1,7 @@
 let fs = require ('fs-extra');
-let words = require("./word.js");
+let inquirer = require ("inquirer")
+let Word = require("./word.js");
+let colors = require('colors');
+
+
+

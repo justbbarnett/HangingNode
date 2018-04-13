@@ -12,24 +12,29 @@ class Letter {
     letterCheckedOut (guess) {
         if ( this.character === guess){
             this.guessedIt = true;
+            // letterOrSymbol ();
+            this.display = this.character
+            console.log(this.display)
             return true;
+ 
         }
         else {
             return false
         }
     }
 
-    letterOrSymbol (){
-        if (this.letterCheckedOut) {
-            //if the letter checked out it will be true
-            return this.display = this.letter;
-            //guessed letter will be returned
-        }
-        else {
-            return this.display = "__ ";
-            //you get an underscore if you haven't guessed it.
-        }
-    }
+    // letterOrSymbol (){
+    //     if (this.letterCheckedOut) {
+    //         console.log("letterOrSymbol is running")
+    //         //if the letter checked out it will be true
+    //         return this.display = this.letter;
+    //         //guessed letter will be returned
+    //     }
+    //     else {
+    //         return this.display = "__ ";
+    //         //you get an underscore if you haven't guessed it.
+    //     }
+    // }
 
 }
 
